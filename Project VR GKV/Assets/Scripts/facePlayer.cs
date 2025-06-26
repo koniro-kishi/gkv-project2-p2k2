@@ -13,6 +13,6 @@ public class facePlayer : MonoBehaviour
     {
         Vector3 lookDirection = Camera.main.transform.position - transform.position;
         if (lookDirection.sqrMagnitude > 0.01f)
-            transform.rotation = Quaternion.LookRotation(lookDirection);
+            transform.rotation = Quaternion.LookRotation(-lookDirection);
     }
 }
