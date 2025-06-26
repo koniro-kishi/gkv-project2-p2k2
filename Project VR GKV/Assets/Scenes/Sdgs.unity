@@ -10114,7 +10114,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604594105}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbfda613ba35d0f41afce541b7940836, type: 3}
   m_Name: 
@@ -23210,7 +23210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4941219564456579801, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0042999983
+      value: -0.00003
       objectReference: {fileID: 0}
     - target: {fileID: 4941219564456579801, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -23234,7 +23234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4941219564456579801, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.02910006
+      value: -0.0291
       objectReference: {fileID: 0}
     - target: {fileID: 4941219564456579801, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29018,9 +29018,9 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  DopplerLevel: 2
+  MinDistance: 1.5
+  MaxDistance: 3.5
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -29055,7 +29055,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -37021,8 +37021,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131349848}
-  m_LocalRotation: {x: 0.6029265, y: 0.36943159, z: 0.36943159, w: 0.6029265}
-  m_LocalPosition: {x: 0, y: 0, z: 0.003096}
+  m_LocalRotation: {x: 0.6651028, y: 0.24007978, z: 0.24007978, w: 0.6651028}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00062}
   m_LocalScale: {x: -0.000019999998, y: 0.000019999998, z: 0.000019999994}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -37030,10 +37030,10 @@ RectTransform:
   - {fileID: 1240714209}
   - {fileID: 915287001}
   m_Father: {fileID: 1774093436}
-  m_LocalEulerAnglesHint: {x: 152.994, y: -90, z: -90}
+  m_LocalEulerAnglesHint: {x: 129.696, y: -90, z: -90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.020639, y: -0.003033}
+  m_AnchoredPosition: {x: 0.01566, y: -0.0128}
   m_SizeDelta: {x: 649.3513, y: 757.5687}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2131349850
@@ -37043,7 +37043,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131349848}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbfda613ba35d0f41afce541b7940836, type: 3}
   m_Name: 
